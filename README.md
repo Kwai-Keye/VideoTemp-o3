@@ -9,8 +9,6 @@
 
 </div>
 
-## Overview
-
 ![](figs/main.png)
 
 Illustration of the agentic pipeline in VideoTemp-o3. Given a video QA pair, the model performs on-demand temporal grounding to locate the most relevant segment, then refines it iteratively. Finally, it produces a reliable answer grounded in the pertinent visual evidence.
