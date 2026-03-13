@@ -2,6 +2,7 @@
 
 <div align="center" style="font-size: 15pt">
 
+<a href='https://liuwq-bit.github.io/VideoTemp-o3'><img src='https://img.shields.io/badge/Project-Page-green'></a>
 <a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Arxiv-2602.07801-red'></a>
 <a href='https://huggingface.co/models'><img src='https://img.shields.io/badge/Model-VideoTemp_o3-orange'></a>
 <a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
