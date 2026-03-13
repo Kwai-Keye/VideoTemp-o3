@@ -1,15 +1,23 @@
 # VideoTemp-o3: Harmonizing Temporal Grounding and Video Understanding in Agentic Thinking-with-Videos
 
 <a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Arxiv-2602.07801-red'></a>
-<a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Model-VideoTemp_o3-orange'></a>
-<a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
-<a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Benchmark-VideoTemp_Bench-blue'></a>
+<a href='https://huggingface.co/models'><img src='https://img.shields.io/badge/Model-VideoTemp_o3-orange'></a>
+<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
+<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Benchmark-VideoTemp_Bench-blue'></a>
 
 ## Overview
 
 ![](figs/main.png)
 
 Illustration of the agentic pipeline in VideoTemp-o3. Given a video QA pair, the model performs on-demand temporal grounding to locate the most relevant segment, then refines it iteratively. Finally, it produces a reliable answer grounded in the pertinent visual evidence.
+
+## Todo List
+
+- [x] Release the paper of VideoTemp-o3.
+- [x] Release training and evaluation code.
+- [ ] Release the checkpoints of VideoTemp-o3.
+- [ ] Release SFT and RL training data.
+- [ ] Release VideoTemp-Bench.
 
 ## Environment Setup
 
@@ -103,7 +111,7 @@ bash rl/grpo.sh
 | Video-MMMU | https://huggingface.co/datasets/lmms-lab/VideoMMMU |
 | Video-MME | https://huggingface.co/datasets/lmms-lab/Video-MME |
 | LVBench | https://huggingface.co/datasets/zai-org/LVBench |
-| VideoTemp-Bench | https://arxiv.org/abs/2602.07801 |
+| VideoTemp-Bench | https://huggingface.co/datasets |
 
 Place the downloaded data under the corresponding `eval/<benchmark>/data/` directory.
 
