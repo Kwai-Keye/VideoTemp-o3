@@ -26,7 +26,7 @@ MODEL_NAME = None
 lock = threading.Lock()
 
 VLLM_BASE_URL = "http://0.0.0.0:8000/v1"
-INPUT_FILE = "eval/lvbench/data/video_info_sample.meta.jsonl"
+INPUT_FILE = "eval/lvbench/data/video_info.meta.jsonl"
 VIDEO_DIR = "eval/lvbench/data/video_chunks"
 OUTPUT_PATH = "eval/lvbench/output/test.json"
 AGENT_RUNS_DIR = "eval/lvbench/agent_runs"
