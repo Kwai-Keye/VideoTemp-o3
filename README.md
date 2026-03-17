@@ -4,9 +4,9 @@
 
 <a href='https://liuwq-bit.github.io/VideoTemp-o3'><img src='https://img.shields.io/badge/Project-Page-green'></a>
 <a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Arxiv-2602.07801-red'></a>
-<a href='https://huggingface.co/models'><img src='https://img.shields.io/badge/Model-VideoTemp_o3-orange'></a>
-<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
-<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Benchmark-VideoTemp_Bench-blue'></a>
+<a href='https://huggingface.co/models'><img src='https://img.shields.io/badge/Model-Coming Soon-orange'></a>
+<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Dataset-Coming Soon-yellow'></a>
+<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Benchmark-Coming Soon-blue'></a>
 
 </div>
 
@@ -32,16 +32,8 @@ conda activate videotemp_o3
 # Install vLLM v0.11.0
 pip install https://github.com/vllm-project/vllm/releases/download/v0.11.0/vllm-0.11.0+cu129-cp38-abi3-manylinux1_x86_64.whl
 
-# Install ms-swift (from source, recommended)
-cd ms-swift
-pip install -e '.[all]' -U
-# Or install ms-swift v3.10.0 directly from PyPI:
-# pip install 'ms-swift[all]==3.10.0' -U
-
-# IMPORTANT: disable vLLM prefix caching in ms-swift
-# Edit: <conda-env>/lib/python3.12/site-packages/swift/llm/infer/infer_engine/vllm_engine.py, line 126
-# Change: enable_prefix_caching=enable_prefix_caching
-# To:     enable_prefix_caching=False
+# Install ms-swift
+pip install 'ms-swift[all]==3.10.0' -U
 
 # Install flash-attn (CUDA 12 + PyTorch 2.8)
 pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.1/flash_attn-2.8.1+cu12torch2.8cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
