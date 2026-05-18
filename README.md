@@ -1,12 +1,12 @@
-# VideoTemp-o3: Harmonizing Temporal Grounding and Video Understanding in Agentic Thinking-with-Videos
+# [ICML26] VideoTemp-o3: Harmonizing Temporal Grounding and Video Understanding in Agentic Thinking-with-Videos
 
 <div align="center" style="font-size: 15pt">
 
 <a href='https://liuwq-bit.github.io/VideoTemp-o3'><img src='https://img.shields.io/badge/Project-Page-green'></a>
 <a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Arxiv-2602.07801-red'></a>
-<a href='https://huggingface.co/models'><img src='https://img.shields.io/badge/Model-Coming Soon-orange'></a>
-<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Dataset-Coming Soon-yellow'></a>
-<a href='https://huggingface.co/datasets'><img src='https://img.shields.io/badge/Benchmark-Coming Soon-blue'></a>
+<a href='https://huggingface.co/Kwai-Keye/VideoTemp-o3'><img src='https://img.shields.io/badge/Model-VideoTemp o3-orange'></a>
+<a href='https://huggingface.co/datasets/Kwai-Keye/VideoTemp-o3'><img src='https://img.shields.io/badge/Dataset-SFT & RL-yellow'></a>
+<a href='https://huggingface.co/datasets/Kwai-Keye/VideoTemp-Bench'><img src='https://img.shields.io/badge/Benchmark-VideoTemp Bench-blue'></a>
 
 </div>
 
@@ -14,13 +14,15 @@
 
 Illustration of the agentic pipeline in VideoTemp-o3. Given a video QA pair, the model performs on-demand temporal grounding to locate the most relevant segment, then refines it iteratively. Finally, it produces a reliable answer grounded in the pertinent visual evidence.
 
-## Todo List
 
-- [x] Release the paper of VideoTemp-o3.
-- [x] Release training and evaluation code.
-- [ ] Release the checkpoints of VideoTemp-o3.
-- [ ] Release SFT and RL training data.
-- [ ] Release VideoTemp-Bench.
+## Updates
+
+- [2026/05/18] We release the [model weights](https://huggingface.co/Kwai-Keye/VideoTemp-o3), [training data](https://huggingface.co/datasets/Kwai-Keye/VideoTemp-o3) and [benchmark](https://huggingface.co/datasets/Kwai-Keye/VideoTemp-Bench).
+- [2026/05/01] 🎉🎉🎉 VideoTemp-o3 is accepted to ICML 2026 🎉🎉🎉
+- [2026/03/06] We release the training and evaluation code.
+- [2026/02/10] The project page is live at [Project Page](https://liuwq-bit.github.io/VideoTemp-o3).
+- [2026/02/08] We release the [arXiv paper](https://arxiv.org/abs/2506.11712).
+
 
 ## Environment Setup
 
@@ -106,7 +108,7 @@ bash rl/grpo.sh
 | Video-MMMU | https://huggingface.co/datasets/lmms-lab/VideoMMMU |
 | Video-MME | https://huggingface.co/datasets/lmms-lab/Video-MME |
 | LVBench | https://huggingface.co/datasets/zai-org/LVBench |
-| VideoTemp-Bench | https://huggingface.co/datasets |
+| VideoTemp-Bench | https://huggingface.co/datasets/Kwai-Keye/VideoTemp-Bench |
 
 Place the downloaded data under the corresponding `eval/<benchmark>/data/` directory.
 
@@ -165,6 +167,14 @@ python eval/score.py lvbench
 ```
 
 Each subcommand accepts `--input_file <path>` to override the default output path. Run `python eval/score.py <benchmark> --help` for details.
+
+## Todo List
+
+- [x] Release the paper of VideoTemp-o3.
+- [x] Release training and evaluation code.
+- [x] Release the checkpoints of VideoTemp-o3.
+- [x] Release SFT and RL training data.
+- [x] Release VideoTemp-Bench.
 
 ## Citation
 
