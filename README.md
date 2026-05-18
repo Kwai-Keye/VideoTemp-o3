@@ -82,7 +82,7 @@ rl/data/
 bash sft/sft.sh
 ```
 
-### RL (GRPO)
+### RL
 
 RL training uses 6 GPUs for GRPO and 2 GPUs for the rollout engine.
 
