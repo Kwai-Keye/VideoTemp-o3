@@ -176,6 +176,12 @@ Each subcommand accepts `--input_file <path>` to override the default output pat
 - [x] Release SFT and RL training data.
 - [x] Release VideoTemp-Bench.
 
+## Acknowledgement
+This work is built upon the following open-source projects, and we sincerely thank the authors for their contributions:
+- [ms-swift](https://github.com/modelscope/ms-swift)
+- [vLLM](https://github.com/vllm-project/vllm)
+- [ThinkingWithVideos](https://github.com/zhang9302002/ThinkingWithVideos)
+
 ## Citation
 
 If you find our work useful, please consider citing:
