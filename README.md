@@ -48,7 +48,7 @@ pip install deepspeed==0.16.9
 
 ### SFT Data
 
-Download the SFT data from [Hugging Face](https://arxiv.org/abs/2602.07801) and place it under `sft/data/`. The expected directory structure is:
+Download the SFT data from [Hugging Face](https://huggingface.co/datasets/Kwai-Keye/VideoTemp-o3) and place it under `sft/data/`. The expected directory structure is:
 
 ```
 sft/data/
@@ -66,7 +66,7 @@ sft/data/
 
 ### RL Data
 
-Download the RL data from [Hugging Face](https://arxiv.org/abs/2602.07801) and place it under `rl/data/`. The expected directory structure is:
+Download the RL data from [Hugging Face](https://huggingface.co/datasets/Kwai-Keye/VideoTemp-o3) and place it under `rl/data/`. The expected directory structure is:
 
 ```
 rl/data/
