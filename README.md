@@ -5,6 +5,7 @@
 <a href='https://liuwq-bit.github.io/VideoTemp-o3'><img src='https://img.shields.io/badge/Project-Page-green'></a>
 <a href='https://arxiv.org/abs/2602.07801'><img src='https://img.shields.io/badge/Arxiv-2602.07801-red'></a>
 <a href='https://github.com/Kwai-Keye/VideoTemp-o3'><img src='https://img.shields.io/badge/Code-Github-blue?logo=github'></a>
+<br>
 <a href='https://huggingface.co/Kwai-Keye/VideoTemp-o3'><img src='https://img.shields.io/badge/Model-VideoTemp o3-orange'></a>
 <a href='https://huggingface.co/datasets/Kwai-Keye/VideoTemp-o3'><img src='https://img.shields.io/badge/Dataset-SFT & RL-yellow'></a>
 <a href='https://huggingface.co/datasets/Kwai-Keye/VideoTemp-Bench'><img src='https://img.shields.io/badge/Benchmark-VideoTemp Bench-blue'></a>
