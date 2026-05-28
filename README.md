@@ -23,7 +23,7 @@ Illustration of the agentic pipeline in VideoTemp-o3. Given a video QA pair, the
 - [2026/05/01] 🎉🎉🎉 VideoTemp-o3 is accepted to ICML 2026 🎉🎉🎉
 - [2026/03/06] We release the training and evaluation code.
 - [2026/02/10] The project page is live at [Project Page](https://liuwq-bit.github.io/VideoTemp-o3).
-- [2026/02/08] We release the [arXiv paper](https://arxiv.org/abs/2506.11712).
+- [2026/02/08] We release the [arXiv paper](https://arxiv.org/abs/2602.07801).
 
 
 ## Environment Setup
